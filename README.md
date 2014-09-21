@@ -9,8 +9,10 @@ Requiere base de datos MySQL
 
 INSTRUCCIONES
 
-1 - Importar dump.sql en MySQL
-2 - Agregar nombre de host, nombre de base de datos, user y password en qs_connection.php
-3 - Abrir index.php en un navegador
+1 - Importar dump.sql en MySQL.
+
+2 - Agregar nombre de host, nombre de base de datos, user y password en qs_connection.php.
+
+3 - Abrir index.php en un navegador.
 
 Puede regularse la velocidad de cada línea de trenes modificando los valores de las variables speedA a speedH (en unidades de milisegundos), y su frecuencia modificando los valores de las variables frequencyA a frequencyH (en unidades de segundos).
