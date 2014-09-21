@@ -134,7 +134,7 @@ input[type=range]:focus::-ms-fill-lower {
 </style>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"/>
 <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
-<script type="text/javascript" src="d3.min.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript" src="tooltip.js"></script> 
 <body>
 <div id="loading"><img src="loading.gif"> Cargando...<br>
@@ -518,6 +518,6 @@ updateFrequenciesH();
 
 <h1>Subte virtual <sup>by <a href="http://www.andytow.com">Andy Tow</a></sup></h1>
 <p><small>Creado con <a href="http://d3js.org/" target="_blank">D3.js</a> con datos de <a href="http://data.buenosaires.gob.ar/dataset/subterraneos" target="_blank">Buenos Aires Data</a> y <a href="https://github.com/palamago/sucursales-sube" target="_blank">Pablo Paladino</a>.</small></p>
-
+<p><a href="https://github.com/andytow/subtemania/">Repositorio</a></p>
 </body>
 </html>
