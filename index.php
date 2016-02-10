@@ -183,9 +183,11 @@ var greenIcon = L.icon({
 });
 			for (var i = 0; i < planes.length; i++) {
 			marker = new L.marker([planes[i][1],planes[i][2]],{icon: greenIcon})
-				.bindPopup(planes[i][0])
-				.addTo(map);
-				}
+				.bindPopup(planes[i][0]);
+			marker.on('mouseover', function (e) {this.openPopup(); });
+			marker.on('mouseout', function (e) {this.closePopup(); });				
+			marker.addTo(map);
+			}
 
 
 			
